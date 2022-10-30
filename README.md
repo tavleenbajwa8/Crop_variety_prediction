@@ -1,3 +1,3 @@
 # deploy-ml
 End to end ML project
-/home/pennyywise/deploy-ml
+Pythonanywhere path: /home/pennyywise/deploy-ml/app.py
