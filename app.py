@@ -35,7 +35,7 @@ def reverse_mapping(x):
     return "No Crop"
 
 
-with open("saved_model.sav", "rb") as f:
+with open("/home/pennyywise/deploy-ml/saved_model.sav", "rb") as f:
     model = pickle.load(f)
 
 @app.route("/", methods = ["GET", "POST"])
